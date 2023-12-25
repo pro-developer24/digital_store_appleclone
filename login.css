@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: 'Poppins', 
+    sans-serif;
+    background-image: url(/img/bpanth.jpg);
+    background-size: contain;
+
+}
+
+
+/*---------------------- Login Container ---------------------------*/
+
+.box-area
+{
+    width: 930px;
+    
+}
+
+
+/*---------------------- Right Box ---------------------------*/
+.right-box
+{
+    padding: 40px 30px 40px 40px;
+}
+
+
+/*---------------------- Custom Placeholder ------------------------*/
+
+
+::placeholder
+{
+    font-size: 16px;
+}
+
+
+/*---------------------- for small screens ------------------------*/
+
+@media only screen and(max-width:768px)
+ {
+      
+    .box-area
+    {
+        margin: 0 10px;
+
+    }
+
+    .left-box
+    {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box
+    {
+        padding: 20px;
+    }
+}
+
+
+/*     updated */
+
+.text{
+    color: aqua;
+}

@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Lato', sans-serif; /* this is font from google*/
+}
+
+/* this is navbar */
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: fixed;
+    background-color: azure;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+
+}
+
+/* this is navbar img */
+.navbar .logo img
+{
+    height: 50px;
+    width:100%;
+    background-color: aliceblue;
+}
+
+/* this is navbar icons*/
+.navbar .nav-icons img
+{
+    height: 23px;
+    margin-left: 10px;
+}
+
+.navbar ul li
+{
+    margin-left: 35px;
+    font-size: 15px;
+    margin-top:15px;
+}
+
+.navbar ul li a
+{
+  color: black;
+ 
+}
+
+/* this is offers in navbar*/
+.offers
+{
+    height: 110px;
+    text-align: center;
+    padding-top: 55px;
+    background-color:#800000;
+    color:white;
+    margin-top: 19px;
+    padding-bottom: 8px;
+
+}
+
+.offers a
+{
+    color:aquamarine;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 200;
+}
+
+
+/* this is for video */
+
+.back-video video
+{
+   width: 100%;
+    
+}
+/* parent div  */
+.section
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #800000;
+    margin-top: 15px;
+}
+
+.service img
+{
+    height: 35px;
+    border-radius: 40%;
+    width: 35px;
+}
+
+.service a
+{
+    color: blue;
+}
+
+/* titles  */
+
+.titles
+{
+    font-size:20px;
+}
+
+/* product css */
+.products
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 28px;
+    background-color:white;
+}
+
+.product img
+{
+    height: 90px;
+}
+
+.product
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 28px;
+}
+.product a
+{
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+  
+}
+
+/*           look          */
+
+
+
+
+/* card section 1st card */
+
+.cards
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 35px;
+}
+
+.card img
+{
+    height: 250px;
+    
+}
+.card 
+{
+  
+    height: 450px;
+    width: 340px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 25px;
+    box-shadow:rgba(65, 65, 101, 0.2) 0px 7px 29px 0px;
+    transition: 0.8s;
+    
+}
+
+.card-container
+{
+    margin-top: 28px;
+    text-align: center;
+}
+
+.card h1
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Event section 2 css */
+
+.event-pic img
+{
+    height: 400px;
+}
+
+.event-pic
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app-events
+{
+    background-color: black;
+    color: blueviolet;
+    margin-top: 80px;
+    padding: 45px;
+}
+
+.app-events h1
+{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/*     section 3 css   */
+
+
+.section3
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.section3 img
+{
+    height: 650px;
+}
+.section3 h1
+{
+    font-size: 25px;
+    color:black;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* card section 2 nd for mobiles card */
+
+.cards2
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 35px;
+   
+   
+}
+
+.card2 img
+{
+    height: 220px;
+    margin-top: 8%;
+    
+}
+.card2 
+{
+  
+    height: 450px;
+    width: 340px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 25px;
+    box-shadow:rgba(65, 65, 101, 0.2) 0px 7px 29px 0px;
+    transition: 0.8s;
+   
+    
+}
+
+.card-container
+{
+    margin-top: 28px;
+    text-align: center;
+}
+
+.card2 h1
+{
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.card2:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*        menu items     */
+
+.store
+{
+    display: flex;
+}
+.store img
+{
+    height: 20px;
+}
+
+/*        menu List     */
+
+.menu-list
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul
+{
+    list-style-type: none;
+
+}
+.store
+{
+    margin-left: 5rem;
+    padding-top:17px;
+    padding-bottom: 17px;
+    
+}
+.menu-items 
+{
+    margin-top: 45px;
+    background-color:burlywood;
+    
+}
+
+
+/*     footer     */
+
+.footer
+{
+    text-align: center;
+    padding: 30px;
+    
+}
+.footer p
+{
+    margin-top:30px;
+    padding: 5px;
+}
+
+
+/*               media-query for responsive            */
+
+.menuopen
+{
+    display: none;
+}
+
+.cross
+{
+    display: none;
+}
+
+
+
+.t1{
+    background-color: black;
+    height: 150px;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .navbar ul 
+    {
+        display: none;
+    }
+    .navbar
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar ul
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 40px;
+        position: absolute;
+        background-color: bisque;
+        opacity:0%;
+        transition: 0.6s;
+        
+    }
+    .navbar ul li
+    {
+        padding-top: 30px;
+        
+    }
+    .menuopen
+    {
+        display: block;
+        position:absolute;
+        right: 4%;
+        top: 25%;
+        height: 25px;
+    }
+
+   
+
+    .cross{
+        display: block;
+        position: absolute;
+        right: 4%;
+        height: 25px;
+    }
+    .offers p
+    {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .offers a
+    {
+        font-size: 13px;
+    }
+
+    .section
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 27px;
+    }
+    .titles h1
+    {
+        font-size: 27px;
+        padding: 27px;
+    }
+
+    .cards
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .app-events
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .event-pic
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .event-pic img
+    {
+        height: 350px;
+        width: 220px;
+        align-items: center;
+    }
+    .section3
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section3 img
+    {
+        height: 380px;
+    }
+    .section3 h1
+    {
+        font-size: 28px;
+        margin: 20px;
+    }
+    .menu-list ul
+    {
+        font-size: 12px;
+        padding: 10px;
+
+    }
+    
+}
+    

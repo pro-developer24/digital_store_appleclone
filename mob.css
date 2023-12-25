@@ -1,0 +1,211 @@
+*
+{
+    margin: 0%;
+    padding:0%;
+    
+}
+
+
+
+/* navbar  */
+
+.main{
+    display: flex;
+    
+}
+
+ ul{
+    height: 65px;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    margin-top: 1px;
+    color: white;
+    border-radius:3px;
+    padding: 6px;
+    background-color: brown;
+          
+}
+
+
+ ul li{
+    margin-top:2px;
+    padding: 10px;
+    width: 12%;
+    text-align: center;
+    
+     } 
+
+   
+
+/********       main Container  **********/
+
+.sam{
+    
+    border: solid rgb(141, 141, 171);
+    border-radius: 20px;
+    width:48%;
+    margin-left:13px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    }
+
+.sam img{
+          height:250px;;
+          width: 24%;
+          padding: 8px;
+          border-radius: 10px;
+         
+
+        } 
+
+
+        /********       4th row  **********/
+
+        .img1{
+                background-image: url(/img3/img3.jpg);
+                height: 430px;
+                background-size:cover;   
+                width:79%;
+                margin-left:18%;
+               
+              }
+
+              .img2{
+                margin-top: 25px;
+                background-image: url(/img3/img5.jpg);
+                height: 430px;
+                background-size:cover;   
+                width:79%;
+                margin-left:18%;
+               
+              }
+
+              .img3{
+                margin-top: 25px;
+                background-image: url(/img3/img6.jpg);
+                height: 430px;
+                background-size:cover;   
+                width:79%;
+                margin-left:18%;
+               
+              }
+
+  /********       5th row  **********/
+  .box{
+    margin-top: 10px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-evenly;
+   
+   }   
+
+            /* border: solid black; */
+     
+    .b{       
+         width:13.33%;
+         height: 200px;
+         background-color: white;
+       }
+
+       /********       5th row  **********/
+
+       .b1{
+              margin-top:20px;
+              height:160px;
+              width: 80%;
+              margin-left:18%;
+              background-color: white;
+
+            }
+
+       /*     --------   7th row  start ----     */
+
+
+       .box2{
+             display: flex;
+             justify-content: space-evenly;
+             margin-left: 16%;
+             background-color: white;
+            }  
+            
+        .b2{
+            /* border: 2px solid black; */
+            height:360px;
+            width:23.5%;
+            background-color: white;
+            
+          }
+           /*     --------   8th row  start ----     */
+
+           .b3{
+            margin-top:15px;
+            height:350px;
+            width: 80%;
+            margin-left:18%;
+            background-color: white;
+
+          }
+
+
+
+ /*     --------  Footer  row  start ----     */
+ .panel1{
+            
+            background-color:brown;
+            color: aqua;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.85rem;
+           }
+
+
+           
+/*   <!-- p2 --> */
+
+.f-panel2{
+          background-color:#222f3d ;
+          color:white;
+          height:300px;display: flex;
+          justify-content: space-evenly;
+}
+
+
+
+
+
+
+/*         media query       */
+
+
+@media only screen and (max-width:600px)
+{
+   
+
+
+  ul{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+  .box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+        
+        
+       
+  }
+ 
+}
+
+
+     
+
+     
